@@ -1,0 +1,28 @@
+{
+	"name": "slash-pokecord",
+	"version": "1.0.0",
+	"description": "A Pokémon Discord bot that uses Slash Commands!",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mathletedev/slash-pokecord.git"
+	},
+	"keywords": [],
+	"author": "mathletedev <mathletedev@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mathletedev/slash-pokecord/issues"
+	},
+	"homepage": "https://github.com/mathletedev/slash-pokecord#readme",
+	"dependencies": {
+		"@types/node": "^14.14.31",
+		"@types/ws": "^7.4.0",
+		"axios": "^0.21.1",
+		"discord.js": "^12.5.1",
+		"dotenv": "^8.2.0",
+		"typescript": "^4.2.3"
+	}
+}
